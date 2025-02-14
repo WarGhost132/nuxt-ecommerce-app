@@ -10,8 +10,28 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/icon": "^1.10.3",
+    "@nuxtjs/cloudinary": "^4.0.0",
+    "@nuxtjs/color-mode": "^3.5.2",
+    "@nuxtjs/tailwindcss": "^6.13.1",
+    "@vueuse/core": "^12.6.1",
+    "@vueuse/nuxt": "^12.6.1",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-vue-next": "^0.475.0",
     "nuxt": "^3.15.4",
+    "nuxt-auth-utils": "^0.5.15",
+    "radix-vue": "^1.9.14",
+    "shadcn-nuxt": "^0.11.3",
+    "stripe": "^17.6.0",
+    "tailwind-merge": "^3.0.1",
+    "tailwindcss-animate": "^1.0.7",
     "vue": "latest",
     "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@prisma/client": "^6.3.1",
+    "prisma": "^6.3.1",
+    "typescript": "^5.7.3"
   }
 }
